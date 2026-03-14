@@ -84,6 +84,7 @@ Example Results :
 
 
 '''
+
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: P@ssw0rd@2024xyz
@@ -95,6 +96,7 @@ Strength: Strong
 PAWNED : NO
 In Wordlist: NO
 no issues found
+
 '''
 
 
