@@ -82,12 +82,11 @@ Note : rockyou.txt is .gitignore due to its size, You can download it that is me
 
 Example Results :
 
-1.
+
 '''
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: P@ssw0rd@2024xyz
-========================================
 Password: P@ssw0rd@2024xyz
 Length: 16
 Charset Size: 94
@@ -96,15 +95,13 @@ Strength: Strong
 PAWNED : NO
 In Wordlist: NO
 no issues found
-========================================
 '''
 
-2.
+
 '''
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: password1111
-========================================
 Password: password1111
 Length: 12
 Charset Size: 36
@@ -115,6 +112,5 @@ In Wordlist: NO
 No uppercase letters
 No special characters
 Repeating characters Detected
-Mutation of known password is Detected     
-========================================
+Mutation of known password is Detected
 '''
