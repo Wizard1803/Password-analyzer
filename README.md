@@ -1,9 +1,9 @@
 # Password Analyzer
 
-To analyze password strength and it's probability that it can be cracked and give details about the password
+**To analyze password strength and it's probability that it can be cracked and give details about the password**
 
 
-Tech Stack used-
+##Tech Stack:
 ```
 Python 3.12.4
 Libraries used -
@@ -12,7 +12,7 @@ Libraries used -
 API : Haveibeenpwned(free, no key required)
 ```
 
-Project Structure:
+##Project Structure:
 ```
 Password_Analyzer
     |--main.py
@@ -23,7 +23,7 @@ Password_Analyzer
 ```
 
 
-Workflow:
+##Workflow:
 ```
 load wordlist
      |
@@ -57,36 +57,37 @@ prints whole analysis results
 
 
 
-Installing and running project:-
+##Installing and running project:
 
-1. Clone the project from repository:
-    Run this command in terminal:
-``` git clone repo_link```
+1. Clone the project from repository:  
+    Run this command in terminal:  
+```git clone repo_link```
 
-2. Create folder Wordlist:
-    -download and paste the rockyou.txt file from web "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"
+2. Create folder Wordlist:  
+    -download and paste the rockyou.txt file from web "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"  
     -change file path for File I/O in main.py (in main function wordlist
     variable is loading a file, Here change the file path)
 
-3. Install requests
-    Run following command in terminal:
+3. Install requests  
+    Run following command in terminal:  
 ``` pip install requests   ```
 
-4. Run the project in terminal:
+4. Run the project in terminal:  
 ``` python main.py  ```
 
 5. Enter the Password to Analyze
 
-Note : rockyou.txt is .gitignore due to its size, You can download it that is mentioned in installation steps
+##Note : **rockyou.txt is .gitignore due to its size, You can download it that is mentioned in installation steps**
 
 
-Example Results :
+##Example Results :
 
 1.
 ```
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: P@ssw0rd@2024xyz
+========================================
 Password: P@ssw0rd@2024xyz
 Length: 16
 Charset Size: 94
@@ -95,6 +96,7 @@ Strength: Strong
 PAWNED : NO
 In Wordlist: NO
 no issues found
+========================================
 ```
 
 2.
@@ -102,6 +104,7 @@ no issues found
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: password1111
+========================================
 Password: password1111
 Length: 12
 Charset Size: 36
@@ -112,5 +115,6 @@ In Wordlist: NO
 No uppercase letters
 No special characters
 Repeating characters Detected
-Mutation of known password is Detected
+Mutation of known password is Detected     
+========================================
 ```
