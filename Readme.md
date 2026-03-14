@@ -2,23 +2,29 @@
 
 To analyze password strength and it's probability that it can be cracked and give details about the password
 
+
 Tech Stack used-
+```
 Python 3.12.4
 Libraries used -
     Built in : math, re (regex), hashlib
     External : requests
 API : Haveibeenpwned(free, no key required)
-
+```
 
 Project Structure:
+```
 Password_Analyzer
     |--main.py
     |--checker.py
     |--analyzer.py
     |--Wordlists
         |--password_list.txt
+```
+
 
 Workflow:
+```
 load wordlist
      |
      \/
@@ -47,7 +53,7 @@ prints results(method in main)
      |
      \/
 prints whole analysis results
-
+```
 
 
 
@@ -55,7 +61,7 @@ Installing and running project:-
 
 1. Clone the project from repository:
     Run this command in terminal:
-        git clone repo_link
+    ```    git clone repo_link    ```
 
 2. Create folder Wordlist:
     -download and paste the rockyou.txt file from web "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"
@@ -64,10 +70,10 @@ Installing and running project:-
 
 3. Install requests
     Run following command in terminal:
-    pip install requests
+    ``` pip install requests   ```
 
 4. Run the project in terminal:
-    python main.py
+   ``` python main.py  ```
 
 5. Enter the Password to Analyze
 
