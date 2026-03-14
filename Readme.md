@@ -76,7 +76,7 @@ Note : rockyou.txt is .gitignore due to its size, You can download it that is me
 
 Example Results :
 
-1.
+1.'''
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: P@ssw0rd@2024xyz
@@ -90,8 +90,9 @@ PAWNED : NO
 In Wordlist: NO
 no issues found
 ========================================
+'''
 
-2.
+2.'''
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: password1111
@@ -108,3 +109,4 @@ No special characters
 Repeating characters Detected
 Mutation of known password is Detected     
 ========================================
+'''
