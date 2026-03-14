@@ -61,7 +61,7 @@ Installing and running project:-
 
 1. Clone the project from repository:
     Run this command in terminal:
-    ```    git clone repo_link    ```
+``` git clone repo_link```
 
 2. Create folder Wordlist:
     -download and paste the rockyou.txt file from web "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"
@@ -70,10 +70,10 @@ Installing and running project:-
 
 3. Install requests
     Run following command in terminal:
-    ``` pip install requests   ```
+``` pip install requests   ```
 
 4. Run the project in terminal:
-   ``` python main.py  ```
+``` python main.py  ```
 
 5. Enter the Password to Analyze
 
@@ -82,7 +82,8 @@ Note : rockyou.txt is .gitignore due to its size, You can download it that is me
 
 Example Results :
 
-1.'''
+1.
+'''
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: P@ssw0rd@2024xyz
@@ -98,7 +99,8 @@ no issues found
 ========================================
 '''
 
-2.'''
+2.
+'''
 Welcome to the Password Analyzer
 Loaded 13830163 words from the wordlist
 Enter a password to analyze: password1111
