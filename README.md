@@ -1,5 +1,11 @@
 # Password Analyzer
 
+## Problem Statement
+Users create weak passwords without knowing they're weak. Common tools 
+just say "weak" or "strong" without explaining actual vulnerabilities
+ or whether the password has already been compromised in real breaches.  
+
+
 **To analyze password strength and it's probability that it can be cracked and give details about the password**
 
 
@@ -61,7 +67,9 @@ prints whole analysis results
 
 1. Clone the project from repository:  
     Run this command in terminal:  
-```git clone repo_link```
+```
+git clone repo_link
+```
 
 2. Create folder Wordlist:  
     -download and paste the rockyou.txt file from web "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"  
@@ -70,10 +78,14 @@ prints whole analysis results
 
 3. Install requests  
     Run following command in terminal:  
-``` pip install requests   ```
+```
+pip install requests
+```
 
 4. Run the project in terminal:  
-``` python main.py  ```
+```
+python main.py
+```
 
 5. Enter the Password to Analyze
 

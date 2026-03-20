@@ -37,3 +37,9 @@ def check_hibpwn(password):
         if returned_suffix == suffix:
             return int(count)
     return 0
+
+#Functions:
+#load_wordlist()
+#is_mutation_of_wordlist()
+#is_in_wordlist()
+#check_hibpwn()

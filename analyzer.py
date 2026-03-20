@@ -66,3 +66,10 @@ def analyze(password):
         "weaknesses" : get_weaknesses(password)
     }
     return analysis
+
+#Functions
+#get_charset_size()
+#calculate_entropy()
+#get_strength_label()
+#get_weaknesses()
+#analyze()
